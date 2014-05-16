@@ -22,6 +22,7 @@
 		C0F212A31845D0BB005DC125 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0F212821845D0BB005DC125 /* UIKit.framework */; };
 		C0F212AB1845D0BB005DC125 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0F212A91845D0BB005DC125 /* InfoPlist.strings */; };
 		C0F212AD1845D0BB005DC125 /* QRCodeReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F212AC1845D0BB005DC125 /* QRCodeReaderTests.m */; };
+		C0F212B718465CCB005DC125 /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C0F212B618465CCB005DC125 /* beep.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		C0F212A81845D0BB005DC125 /* QRCodeReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QRCodeReaderTests-Info.plist"; sourceTree = "<group>"; };
 		C0F212AA1845D0BB005DC125 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C0F212AC1845D0BB005DC125 /* QRCodeReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCodeReaderTests.m; sourceTree = "<group>"; };
+		C0F212B618465CCB005DC125 /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				C0F212961845D0BB005DC125 /* ViewController.h */,
 				C0F212971845D0BB005DC125 /* ViewController.m */,
 				C0F212991845D0BB005DC125 /* Images.xcassets */,
+				C0F212B618465CCB005DC125 /* beep.mp3 */,
 				C0F212851845D0BB005DC125 /* Supporting Files */,
 			);
 			path = QRCodeReader;
@@ -200,7 +203,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
-				ORGANIZATIONNAME = "Gabriel Theodoropoulos";
+				ORGANIZATIONNAME = Appcoda;
 				TargetAttributes = {
 					C0F2129E1845D0BB005DC125 = {
 						TestTargetID = C0F2127A1845D0BB005DC125;
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0F212B718465CCB005DC125 /* beep.mp3 in Resources */,
 				C0F212951845D0BB005DC125 /* Main_iPad.storyboard in Resources */,
 				C0F2129A1845D0BB005DC125 /* Images.xcassets in Resources */,
 				C0F212921845D0BB005DC125 /* Main_iPhone.storyboard in Resources */,
@@ -474,6 +478,7 @@
 				C0F212B21845D0BB005DC125 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0F212B31845D0BB005DC125 /* Build configuration list for PBXNativeTarget "QRCodeReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +487,7 @@
 				C0F212B51845D0BB005DC125 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
