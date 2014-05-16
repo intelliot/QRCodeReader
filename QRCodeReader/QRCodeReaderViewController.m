@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 Gabriel Theodoropoulos. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "QRCodeReaderViewController.h"
 
-@interface ViewController ()
+@interface QRCodeReaderViewController ()
 @property (nonatomic, strong) AVCaptureSession *captureSession;
 @property (nonatomic, strong) AVCaptureVideoPreviewLayer *videoPreviewLayer;
 @property (nonatomic, strong) AVAudioPlayer *audioPlayer;
@@ -20,7 +20,7 @@
 
 @end
 
-@implementation ViewController
+@implementation QRCodeReaderViewController
 
 - (void)viewDidLoad
 {

@@ -13,9 +13,9 @@
 		C0F212891845D0BB005DC125 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0F212871845D0BB005DC125 /* InfoPlist.strings */; };
 		C0F2128B1845D0BB005DC125 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F2128A1845D0BB005DC125 /* main.m */; };
 		C0F2128F1845D0BB005DC125 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F2128E1845D0BB005DC125 /* AppDelegate.m */; };
-		C0F212921845D0BB005DC125 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0F212901845D0BB005DC125 /* Main_iPhone.storyboard */; };
-		C0F212951845D0BB005DC125 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0F212931845D0BB005DC125 /* Main_iPad.storyboard */; };
-		C0F212981845D0BB005DC125 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F212971845D0BB005DC125 /* ViewController.m */; };
+		C0F212921845D0BB005DC125 /* QRCodeReader_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0F212901845D0BB005DC125 /* QRCodeReader_iPhone.storyboard */; };
+		C0F212951845D0BB005DC125 /* QRCodeReader_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0F212931845D0BB005DC125 /* QRCodeReader_iPad.storyboard */; };
+		C0F212981845D0BB005DC125 /* QRCodeReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F212971845D0BB005DC125 /* QRCodeReaderViewController.m */; };
 		C0F2129A1845D0BB005DC125 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0F212991845D0BB005DC125 /* Images.xcassets */; };
 		C0F212A11845D0BB005DC125 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0F212A01845D0BB005DC125 /* XCTest.framework */; };
 		C0F212A21845D0BB005DC125 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0F2127E1845D0BB005DC125 /* Foundation.framework */; };
@@ -46,10 +46,10 @@
 		C0F2128C1845D0BB005DC125 /* QRCodeReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QRCodeReader-Prefix.pch"; sourceTree = "<group>"; };
 		C0F2128D1845D0BB005DC125 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C0F2128E1845D0BB005DC125 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C0F212911845D0BB005DC125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		C0F212941845D0BB005DC125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		C0F212961845D0BB005DC125 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C0F212971845D0BB005DC125 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C0F212911845D0BB005DC125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/QRCodeReader_iPhone.storyboard; sourceTree = "<group>"; };
+		C0F212941845D0BB005DC125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/QRCodeReader_iPad.storyboard; sourceTree = "<group>"; };
+		C0F212961845D0BB005DC125 /* QRCodeReaderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderViewController.h; sourceTree = "<group>"; };
+		C0F212971845D0BB005DC125 /* QRCodeReaderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCodeReaderViewController.m; sourceTree = "<group>"; };
 		C0F212991845D0BB005DC125 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C0F2129F1845D0BB005DC125 /* QRCodeReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRCodeReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F212A01845D0BB005DC125 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -118,10 +118,10 @@
 			children = (
 				C0F2128D1845D0BB005DC125 /* AppDelegate.h */,
 				C0F2128E1845D0BB005DC125 /* AppDelegate.m */,
-				C0F212901845D0BB005DC125 /* Main_iPhone.storyboard */,
-				C0F212931845D0BB005DC125 /* Main_iPad.storyboard */,
-				C0F212961845D0BB005DC125 /* ViewController.h */,
-				C0F212971845D0BB005DC125 /* ViewController.m */,
+				C0F212901845D0BB005DC125 /* QRCodeReader_iPhone.storyboard */,
+				C0F212931845D0BB005DC125 /* QRCodeReader_iPad.storyboard */,
+				C0F212961845D0BB005DC125 /* QRCodeReaderViewController.h */,
+				C0F212971845D0BB005DC125 /* QRCodeReaderViewController.m */,
 				C0F212991845D0BB005DC125 /* Images.xcassets */,
 				C0F212B618465CCB005DC125 /* beep.mp3 */,
 				C0F212851845D0BB005DC125 /* Supporting Files */,
@@ -235,9 +235,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0F212B718465CCB005DC125 /* beep.mp3 in Resources */,
-				C0F212951845D0BB005DC125 /* Main_iPad.storyboard in Resources */,
+				C0F212951845D0BB005DC125 /* QRCodeReader_iPad.storyboard in Resources */,
 				C0F2129A1845D0BB005DC125 /* Images.xcassets in Resources */,
-				C0F212921845D0BB005DC125 /* Main_iPhone.storyboard in Resources */,
+				C0F212921845D0BB005DC125 /* QRCodeReader_iPhone.storyboard in Resources */,
 				C0F212891845D0BB005DC125 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0F212981845D0BB005DC125 /* ViewController.m in Sources */,
+				C0F212981845D0BB005DC125 /* QRCodeReaderViewController.m in Sources */,
 				C0F2128F1845D0BB005DC125 /* AppDelegate.m in Sources */,
 				C0F2128B1845D0BB005DC125 /* main.m in Sources */,
 			);
@@ -290,20 +290,20 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		C0F212901845D0BB005DC125 /* Main_iPhone.storyboard */ = {
+		C0F212901845D0BB005DC125 /* QRCodeReader_iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C0F212911845D0BB005DC125 /* Base */,
 			);
-			name = Main_iPhone.storyboard;
+			name = QRCodeReader_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
-		C0F212931845D0BB005DC125 /* Main_iPad.storyboard */ = {
+		C0F212931845D0BB005DC125 /* QRCodeReader_iPad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C0F212941845D0BB005DC125 /* Base */,
 			);
-			name = Main_iPad.storyboard;
+			name = QRCodeReader_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		C0F212A91845D0BB005DC125 /* InfoPlist.strings */ = {
